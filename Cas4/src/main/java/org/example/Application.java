@@ -1,11 +1,14 @@
 package org.example;
 
+import org.example.interfaces.Document;
+
 public abstract class Application {
 
-    public void save(){
-        wrappee.save();
+    public Document createDocument(){
+        Document document = createDocument();
+        document.save();
+        return document;
     }
-    public abstract void print();
 
-    public Application wrappee;
+    public abstract void save();
 }
