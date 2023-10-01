@@ -7,8 +7,10 @@ public class SportCar implements Car {
     private final boolean spoiler;
 
     private final boolean turbo;
+    private Make make;
 
     public SportCar(boolean spoiler, boolean turbo){
+        this.make = Make.getMake();
         this.spoiler = spoiler;
         this.turbo = turbo;
     }
