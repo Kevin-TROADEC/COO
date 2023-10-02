@@ -10,6 +10,8 @@ public class StandardCharger implements Charger {
         this.phone = phone;
     }
 
+    public StandardCharger() {}
+
     public void connectPhone() {
         phone.charger();
     }

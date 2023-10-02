@@ -8,12 +8,12 @@ public class App {
         StandardCharger standardCharger = new StandardCharger(simplePhone);
         standardCharger.connectPhone();
 
-        Chargeable usbCPhone = new USBCSmartphone();
+        USBCSmartphone usbCPhone = new USBCSmartphone();
         StandardCharger usbCCharger = new USBCAdapter(usbCPhone);
         usbCCharger.connectPhone();
 
-        Chargeable microUSBPhone = new MicroUSBSmartphone();
-        StandardCharger microUSBCharger = new USBCAdapter(microUSBPhone);
+        MicroUSBSmartphone microUSBPhone = new MicroUSBSmartphone();
+        StandardCharger microUSBCharger = new MicroUSBAdapter(microUSBPhone);
         microUSBCharger.connectPhone();
     }
 }

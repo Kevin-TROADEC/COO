@@ -5,7 +5,9 @@ import org.example.interfaces.Chargeable;
 
 public class USBCAdapter extends StandardCharger {
 
-    public USBCAdapter(Chargeable phone) {
-        super(phone);
+    private USBCSmartphone phone;
+
+    public USBCAdapter(USBCSmartphone phone) {
+        this.phone = phone;
     }
 }
