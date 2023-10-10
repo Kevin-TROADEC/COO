@@ -49,3 +49,4 @@ voitureSt2.options.push('Climatisation');
 voitureSt2.afficher();
 
 //console.log(Object.getPrototypeOf(voitureSt2));
+// lancer le code avec la commande: node code.js
