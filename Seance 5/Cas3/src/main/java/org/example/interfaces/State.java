@@ -9,7 +9,7 @@ public abstract class State {
         this.alarme = alarme;
     }
 
-    public abstract String onEnable(int seconde);
+    public abstract String onEnable();
     public abstract String onDisable();
     public abstract String onRing();
     public abstract String onStop();

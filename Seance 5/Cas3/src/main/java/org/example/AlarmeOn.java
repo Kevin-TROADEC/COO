@@ -2,14 +2,17 @@ package org.example;
 
 import org.example.interfaces.State;
 
+import java.time.LocalDateTime;
+
 public class AlarmeOn extends State {
+
 
     AlarmeOn(Alarme alarme){
         super(alarme);
     }
 
     @Override
-    public String onEnable(int seconde) {
+    public String onEnable() {
         return "Alarm is already on";
     }
 

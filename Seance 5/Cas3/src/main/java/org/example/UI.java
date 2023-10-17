@@ -4,10 +4,16 @@ import java.awt.*;
 
 public class UI {
     private Alarme alarme;
+
+
     private static JTextField textField = new JTextField();
 
     public void setTextfield(String text){
         textField.setText(text);
+    }
+
+    public static JTextField getTextField() {
+        return textField;
     }
     public UI(Alarme alarme) {
         this.alarme = alarme;
@@ -24,7 +30,7 @@ public class UI {
         context.add(buttons);
 
         JButton on = new JButton("On");
-        on.addActionListener(e -> textField.setText(alarme.getState().onEnable(5)));
+        on.addActionListener(e -> textField.setText(alarme.getState().onEnable()));
         JButton off = new JButton("Off");
         off.addActionListener(e -> textField.setText(alarme.getState().onDisable()));
         JButton stop = new JButton("Stop");
