@@ -1,9 +1,10 @@
 import java.util.Scanner;
+import java.io.File;
 
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Give password and username (CSV)");
-        Authenticator AuCSV = new CSVAuthenticator();
+        Authenticator AuCSV = new CSVAuthenticator(new File("Cas1/src/Passwd.csv"));
         String passwd,user;
         do{
         System.out.print("Username : ");

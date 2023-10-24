@@ -1,0 +1,20 @@
+2023-10-24T19:09:39.630529Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2023-10-24T19:09:39.958699Z 0 [System] [MY-010116] [Server] C:\Users\jvinc\OneDrive\Desktop\Syth\M1\Dev\Repo\COO\Seance 6\Cas1\mysql\mysql\bin\mysqld.exe (mysqld 8.1.0) starting as process 20012
+2023-10-24T19:09:40.059823Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-10-24T19:09:41.367506Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-10-24T19:09:42.388981Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-10-24T19:09:42.392984Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-10-24T19:09:42.645263Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2023-10-24T19:09:42.645941Z 0 [System] [MY-010931] [Server] C:\Users\jvinc\OneDrive\Desktop\Syth\M1\Dev\Repo\COO\Seance 6\Cas1\mysql\mysql\bin\mysqld.exe: ready for connections. Version: '8.1.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2023-10-24T19:10:58.966910Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2023-10-24T19:10:59.203729Z 0 [System] [MY-010116] [Server] C:\Users\jvinc\OneDrive\Desktop\Syth\M1\Dev\Repo\COO\Seance 6\Cas1\mysql\mysql\bin\mysqld.exe (mysqld 8.1.0) starting as process 13016
+2023-10-24T19:10:59.254870Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-10-24T19:11:00.896294Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-10-24T19:11:01.450360Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-10-24T19:11:01.462406Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-10-24T19:11:01.610123Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-10-24T19:11:01.612209Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-10-24T19:11:01.664198Z 0 [ERROR] [MY-000069] [Server] C:\Users\jvinc\OneDrive\Desktop\Syth\M1\Dev\Repo\COO\Seance 6\Cas1\mysql\mysql\bin\mysqld.exe: unknown option '-c'.
+2023-10-24T19:11:01.667653Z 0 [ERROR] [MY-010119] [Server] Aborting
+2023-10-24T19:11:02.807697Z 0 [System] [MY-010910] [Server] C:\Users\jvinc\OneDrive\Desktop\Syth\M1\Dev\Repo\COO\Seance 6\Cas1\mysql\mysql\bin\mysqld.exe: Shutdown complete (mysqld 8.1.0)  MySQL Community Server - GPL.
+2023-10-24T19:11:02.817270Z 0 [System] [MY-015016] [Server] MySQL Server - end.
